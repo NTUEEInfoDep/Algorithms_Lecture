@@ -10,7 +10,7 @@ Often has following member features:
 - `empty()`
 - `clear()`
 - Iterators
-
+ 
 ### `std::vector`
 - Dynamic Array: just use it like a normal array.
 - Access elements using `[]`.
