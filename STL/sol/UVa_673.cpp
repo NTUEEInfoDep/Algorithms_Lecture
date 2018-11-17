@@ -26,7 +26,6 @@ int main() {
     cin >> n; cin.get();
     while(n--){
         getline(cin, exp);
-        cout << exp << '\n';
         cout << (is_valid(exp) ? "Yes\n" : "No\n");
     }
     return 0;
