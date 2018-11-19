@@ -8,7 +8,7 @@ bool can_reorder(queue<int>after){
     stack<int>s;
     int n = after.size();
     for(int i = 1; i <= n; ++i){
-        s.push(i);
+        s.push(i); // Train segment goes in stack one by one.
         while(!s.empty() && s.top() == after.front()){
             after.pop(); s.pop();
         }
@@ -20,7 +20,7 @@ int main(){
     int n;
     while(cin >> n && n){
         while(1){
-            queue<int>after;
+            queue<int>after; // Model the train as a queue.
             int t;
             cin >> t; after.push(t);
             if(!t) break;
