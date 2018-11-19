@@ -28,6 +28,7 @@ Often has following member features:
 #### Drills
 - Parenthesis Matching: UVa 673
 - Infix to Postfix Expression: UVa 727
+- Rails: UVa 514
 ***
 ### `std::queue`
 #### Operations
@@ -37,8 +38,9 @@ Often has following member features:
 - `pop()`
 - `front()`
 #### Drills
-- Breadth First Search 
 - UVa 10172
+- UVa 10935 (very basic queue operation)
+- UVa 12100
 ***
 ### `std::priority_queue`
 ![heap](./img/heap.png)
@@ -63,6 +65,8 @@ ascii['a'] = 61;
 - `count()`
 #### Drills
 - UVa 10226
+- UVa 417 (map, table finding)
+- UVa 11286 
 ### `std::set`, `std::unorderd_set`
 Similar to `map`, but the elements are just keys rather than (key, value) pairs.
 - `set`: ordered collection of keys
